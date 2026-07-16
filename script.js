@@ -85,7 +85,7 @@ async function callPredict(game, data) {
       method: 'POST',
       url: `${SUPABASE_URL}/functions/v1/predict`,
       headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${SB_KEY}`, 'apikey': SB_KEY },
-      data: JSON.stringify({ game, session_token: currentSession, data }),
+      data: JSON.stringify({ game, session_token: currentSession, data: { ...data, hwid: deviceId } }),
       timeout: 8000,
       onload(response) {
         try {
