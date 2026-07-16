@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         FPVX.LOL EARLY ACCESS
+// @name         FPVX.LOL MAX
 // @namespace    https://bloxflip.com/
-// @version      4.1
-// @description  fpvx.lol early access
-// @author       fpvx + ceddy
+// @version      5.0
+// @description  fpvx.lol max official
+// @author       fpvx & ceddy
 // @match        https://bloxflip.com/*
 // @grant        GM_setValue
 // @grant        GM_getValue
